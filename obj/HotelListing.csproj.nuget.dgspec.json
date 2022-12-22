@@ -1,24 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\WORKSPACE\\NET.Core_HotelListing\\HotelListing\\HotelListing.csproj": {}
+    "C:\\Workspace\\NET.Core_API_HotelListing\\HotelListing.csproj": {}
   },
   "projects": {
-    "D:\\WORKSPACE\\NET.Core_HotelListing\\HotelListing\\HotelListing.csproj": {
+    "C:\\Workspace\\NET.Core_API_HotelListing\\HotelListing.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\WORKSPACE\\NET.Core_HotelListing\\HotelListing\\HotelListing.csproj",
+        "projectUniqueName": "C:\\Workspace\\NET.Core_API_HotelListing\\HotelListing.csproj",
         "projectName": "HotelListing",
-        "projectPath": "D:\\WORKSPACE\\NET.Core_HotelListing\\HotelListing\\HotelListing.csproj",
-        "packagesPath": "C:\\Users\\Honza\\.nuget\\packages\\",
-        "outputPath": "D:\\WORKSPACE\\NET.Core_HotelListing\\HotelListing\\obj\\",
+        "projectPath": "C:\\Workspace\\NET.Core_API_HotelListing\\HotelListing.csproj",
+        "packagesPath": "C:\\Users\\Honza Gorol\\.nuget\\packages\\",
+        "outputPath": "C:\\Workspace\\NET.Core_API_HotelListing\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Honza\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Honza Gorol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
