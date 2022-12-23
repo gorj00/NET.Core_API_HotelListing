@@ -19,6 +19,7 @@ namespace HotelListing.IRepository
         Task InsertRange(IEnumerable<T> entities);
         Task Delete(int id);
         void DeleteRange(IEnumerable<T> entities);
+        // Some repositories don't allow update
         void Update(T entity);
 
     }
