@@ -111,12 +111,17 @@ namespace HotelListing.Migrations
             modelBuilder.Entity("HotelListing.Models.Hotel", b =>
                 {
                     b.HasOne("HotelListing.Models.Country", "Country")
-                        .WithMany()
+                        .WithMany("Hotels")
                         .HasForeignKey("CountryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Country");
+                });
+
+            modelBuilder.Entity("HotelListing.Models.Country", b =>
+                {
+                    b.Navigation("Hotels");
                 });
 #pragma warning restore 612, 618
         }
