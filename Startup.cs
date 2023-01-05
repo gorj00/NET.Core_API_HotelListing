@@ -2,6 +2,7 @@ using HotelListing.Configurations;
 using HotelListing.Data;
 using HotelListing.IRepository;
 using HotelListing.Repository;
+using HotelListing.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -35,6 +36,9 @@ namespace HotelListing
             {
                 options.UseSqlServer(Configuration.GetConnectionString("expressConnection"));
             });
+
+            services.AddAuthentication();
+            services.ConfigureIdentity();
 
             services.AddCors(o => {
                 o.AddPolicy("AllowAll", builder =>
