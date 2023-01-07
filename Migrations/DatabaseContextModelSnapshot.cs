@@ -209,15 +209,15 @@ namespace HotelListing.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "af93fbd7-ac83-4dec-8052-a558ed74020f",
-                            ConcurrencyStamp = "b2b3c742-b906-4d38-9bb2-c3502725c71f",
+                            Id = "6d699a1a-3cd6-4cac-9cbb-264086fcfcdd",
+                            ConcurrencyStamp = "b41ad770-9217-4c45-8318-7c9875a19937",
                             Name = "User",
                             NormalizedName = "USER"
                         },
                         new
                         {
-                            Id = "3b46d275-62ab-4f2e-865d-757b33486b97",
-                            ConcurrencyStamp = "f461197e-5c81-4111-910c-bb28e6276cec",
+                            Id = "a5106213-d6ae-4c5d-abb0-570545552f66",
+                            ConcurrencyStamp = "066506af-421c-44cc-a253-f2be6eacfa2a",
                             Name = "Administrator",
                             NormalizedName = "ADMINISTRATOR"
                         });
