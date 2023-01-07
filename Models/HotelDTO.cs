@@ -26,4 +26,9 @@ namespace HotelListing.Models
         public int CountryId { get; set; }
 
     }
+
+    public class UpdateHotelDTO : CreateHotelDTO
+    {
+        // Created only due to single responsibility principle
+    }
 }
